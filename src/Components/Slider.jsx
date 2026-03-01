@@ -50,7 +50,7 @@ const Slider = ({url, limit = 10, page=1}) =>{
             {/* Images Container */}
             <div className='relative w-full h-full'>
                 {image && image.length > 0 ? 
-                    image.map((index, item) => (
+                    image.map((item, index) => (
                         <img 
                             key={item.id}
                             src={item.download_url}
@@ -95,7 +95,7 @@ const Slider = ({url, limit = 10, page=1}) =>{
             {/* Dots Indicator */}
             <div className='absolute bottom-16 left-1/2 transform -translate-x-1/2 flex gap-2 z-10'>
                 {image && image.length > 0 ? 
-                    image.map((_, index) => (
+                    image.map((_,index) => (
                         <button 
                             key={index} 
                             onClick={() => setSlideIndex(index)}
