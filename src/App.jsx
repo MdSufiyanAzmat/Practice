@@ -4,6 +4,7 @@ import RandomColor from './Components/RandomColor'
 import Star from './Components/Star'
 import Slider from './Components/Slider'
 import LoadMore from './Components/LoadMore'
+import Qr from './Components/Qr'
 
 function App() {
   return (
@@ -14,8 +15,11 @@ function App() {
       <Star noOfStars={10}/> */}
       {/* <Slider url='https://picsum.photos/v2/list' page={1} limit={10}/> */}
 
-        <LoadMore url='https://picsum.photos/v2/list' page={1} limit={10}/>
+        {/* <LoadMore url='https://picsum.photos/v2/list' page={1} limit={10}/> */}
 
+        {/* <Qr /> */}
+
+        <Toggle />
 </div>
     </>
   )
