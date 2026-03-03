@@ -5,6 +5,7 @@ import Star from './Components/Star'
 import Slider from './Components/Slider'
 import LoadMore from './Components/LoadMore'
 import Qr from './Components/Qr'
+import Toggle from './Components/Toggle/Toggle'
 
 function App() {
   return (
@@ -12,14 +13,15 @@ function App() {
     <div className='flex gap-10 flex-col'>
       {/* <Accordian/>
       <RandomColor/>
-      <Star noOfStars={10}/> */}
-      {/* <Slider url='https://picsum.photos/v2/list' page={1} limit={10}/> */}
+      <Star noOfStars={10}/> 
+      <Slider url='https://picsum.photos/v2/list' page={1} limit={10}/>
 
-        {/* <LoadMore url='https://picsum.photos/v2/list' page={1} limit={10}/> */}
+        <LoadMore url='https://picsum.photos/v2/list' page={1} limit={10}/>
 
-        {/* <Qr /> */}
+         <Qr /> */}
 
-        <Toggle />
+        {/* <Toggle /> */}
+        
 </div>
     </>
   )
